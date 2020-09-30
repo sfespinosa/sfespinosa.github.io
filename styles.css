@@ -476,7 +476,7 @@ mark,
 .main-image {
   max-width: 100%;
   height: auto;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   border-radius: 0.25rem;
   transition: filter .3s ease-in-out;
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
@@ -486,24 +486,26 @@ mark,
 .main-image:hover{
   max-width: 100%;
   height: auto;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   border-radius: 0.25rem;
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
 }
 
 .img-fluid {
-  width: 558px;
-  height: 426px;
+  max-width: 100%;
+  height: auto;
   border-radius: 0.25rem;
   transition: filter .3s ease-in-out;
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%); /* FF 35+ */
+  display: block;
+  margin: auto;
 }
 
 .img-fluid:hover {
-  width: 558px;
-  height: 426px;
+  max-width: 100%;
+  height: auto;
   border-radius: 0.25rem;
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
