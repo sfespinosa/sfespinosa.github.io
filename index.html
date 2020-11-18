@@ -82,7 +82,8 @@
                             <hr class="d-none d-lg-block mb-0 mr-0" /><br/>
                             <div class="text-center text-lg-left">
                                 <a class="mx-2" href="https://github.com/sfespinosa/frontend-50-state-voyage" target="_blank"><i class="fab fa-github"></i> Github</a>
-                                <a class="mx-2" href="https://youtu.be/hcjjB36H_2o" target="_blank"><i class="fas fa-video"></i> Demo</a>
+                                <!-- <a class="mx-2" href="https://youtu.be/hcjjB36H_2o" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+                                <a class="mx-2 js-video-button" href="#" data-video-id='hcjjB36H_2o'><i class="fas fa-video"></i> Demo</a>
                             </div>
                         </div>
                     </div>
@@ -105,7 +106,8 @@
                                     <hr class="d-none d-lg-block mb-0 mr-0" /><br/>
                                     <div class="text-center text-lg-right">
                                         <a class="mx-2" href="https://github.com/sfespinosa/nfph-frontend" target="_blank"><i class="fab fa-github"></i> Github</a>
-                                        <a class="mx-2" href="https://youtu.be/MhqHD46jX3U" target="_blank"><i class="fas fa-video"></i> Demo</a>
+                                        <!-- <a class="mx-2" href="https://youtu.be/MhqHD46jX3U" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+                                        <a class="mx-2 js-video-button" href="#" data-video-id='MhqHD46jX3U'><i class="fas fa-video"></i> Demo</a>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +132,8 @@
                                     <hr class="d-none d-lg-block mb-0 ml-0" /><br/>
                                     <div class="text-center text-lg-left">
                                         <a class="mx-2" href="https://github.com/sfespinosa/frontend-fit-task-ic" target="_blank"><i class="fab fa-github"></i> Github</a>
-                                        <a class="mx-2" href="https://youtu.be/vMUgXY5q2jQ" target="_blank"><i class="fas fa-video"></i> Demo</a>
+                                        <!-- <a class="mx-2" href="https://youtu.be/vMUgXY5q2jQ" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+                                        <a class="mx-2 js-video-button" href="#" data-video-id='vMUgXY5q2jQ'><i class="fas fa-video"></i> Demo</a>
                                     </div>
                                 </div>
                             </div>
@@ -155,7 +158,8 @@
                                     <hr class="d-none d-lg-block mb-0 mr-0" /><br/>
                                     <div class="text-center text-lg-right">
                                         <a class="mx-2" href="https://github.com/sfespinosa/trivia-party" target="_blank"><i class="fab fa-github"></i> Github</a>
-                                        <a class="mx-2" href="https://youtu.be/rrcd2MvW99w" target="_blank"><i class="fas fa-video"></i> Demo</a>
+                                        <!-- <a class="mx-2" href="https://youtu.be/rrcd2MvW99w" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+                                        <a class="mx-2 js-video-button" href="#" data-video-id='rrcd2MvW99w'><i class="fas fa-video"></i> Demo</a>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +182,8 @@
                                     <hr class="d-none d-lg-block mb-0 ml-0" /><br/>
                                     <div class="text-center text-lg-left">
                                         <a class="mx-2" href="https://github.com/sfespinosa/quarantine-cuisines" target="_blank"><i class="fab fa-github"></i> Github</a>
-                                        <a class="mx-2" href="https://youtu.be/29KJpwqMnOo" target="_blank"><i class="fas fa-video"></i> Demo</a>
+                                        <!-- <a class="mx-2" href="https://youtu.be/29KJpwqMnOo" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+                                        <a class="mx-2 js-video-button" href="#" data-video-id='29KJpwqMnOo'><i class="fas fa-video"></i> Demo</a>
                                     </div>
                                 </div>
                             </div>
@@ -234,5 +239,18 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- Modal Video -->
+        <link rel="stylesheet" type="text/css" href="css/modal-video.min.css">
+        <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="js/jquery-modal-video.min.js"></script>
+        <script>
+            $(".js-video-button").modalVideo({
+                youtube:{
+                    controls:0,
+                    nocookie: true
+                }
+            });
+        </script>
     </body>
 </html>
