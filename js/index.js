@@ -11,9 +11,9 @@ const getMediumFeed = () => {
 
 const appendBlogs = () => {
     let blogDiv = document.querySelector('div.blogs')
+    let blogContent = blogArray[0] + blogArray[1]
     debugger
-    let blogContent = blogArray[0] + blogArray[1] + blogArray[2]
-    console.log(blogContent)
+    blogDiv.innerHTML = blogContent
 }
 
 getMediumFeed()
