@@ -10319,10 +10319,9 @@ body {
 }
 
 .technologies-section img {
-  max-width: 100px;
-  max-height: 100px;
-  padding-bottom: 10px;
-  filter: grayscale(100%);
+  max-width: 125px;
+  max-height: 125px;
+  padding-bottom: 25px;
 }
 
 .technologies-section .feature-block {
@@ -10334,8 +10333,9 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
+
 .projects-section .featured-text {
   padding: 2rem;
 }
