@@ -10318,6 +10318,17 @@ body {
   padding-top: 5rem;
 }
 
+.technologies-section img {
+  max-width: 100px;
+  max-height: 100px;
+  padding-bottom: 10px;
+  filter: grayscale(100%);
+}
+
+.technologies-section .feature-block {
+  padding-bottom: 20px;
+}
+
 .project {
   border-radius: 0.25rem;
 }
