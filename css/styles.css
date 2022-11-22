@@ -479,8 +479,8 @@ mark,
   /* margin-bottom: 10px; */
   border-radius: 0.25rem;
   transition: filter .3s ease-in-out;
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%); /* FF 35+ */
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
 }
 
 .main-image:hover{
@@ -497,8 +497,8 @@ mark,
   height: auto;
   border-radius: 0.25rem;
   transition: filter .3s ease-in-out;
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%); /* FF 35+ */
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
   display: block;
   margin: auto;
 }
